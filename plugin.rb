@@ -12,11 +12,11 @@
 
 gem 'domain_name', '0.5.20190701'
 gem 'http-cookie', '1.0.5'
-#gem 'ffi', '1.17.3'
-#gem 'ffi-compiler', '1.3.2', require_name: 'ffi-compiler/loader'
-#gem 'llhttp-ffi', '0.4.0', require_name: 'llhttp'
-#gem 'http-form_data', '2.3.0', require_name: 'http/form_data'
-#gem 'http', '5.1.1'
+gem 'ffi', '1.17.3'
+gem 'ffi-compiler', '1.3.2', require_name: 'ffi-compiler/loader'
+gem 'llhttp-ffi', '0.4.0', require_name: 'llhttp'
+gem 'http-form_data', '2.3.0', require_name: 'http/form_data'
+gem 'http', '5.1.1'
 require_relative 'lib/expo_server_sdk_ruby/expo/server/sdk'
 
 enabled_site_setting :lexicon_push_notifications_enabled
